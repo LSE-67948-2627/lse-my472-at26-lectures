@@ -3,8 +3,8 @@ import os
 from urllib.request import urlretrieve
 
 ## The only two lines to change in later weeks
-week = "week03"
-pdf_file_name = "my472-w03-digital-security.pdf"
+week = "week04"
+pdf_file_name = "my472-w04-tabular.pdf"
 
 ## Where the file should go
 lecture_repo = os.path.expanduser("~/LSE-MY472-AT26/lse-my472-at26-lectures")
