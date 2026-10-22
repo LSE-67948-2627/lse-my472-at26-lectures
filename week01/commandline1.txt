@@ -1,0 +1,22 @@
+.venv(base) rogerschneider@MacBook-Pro-von-Roger LSE-MY472-AT26 % cd "week01"
+cd: no such file or directory: week01
+.venv(base) rogerschneider@MacBook-Pro-von-Roger LSE-MY472-AT26 % cd "lse-my472-at26-lectures/week01"
+.venv(base) rogerschneider@MacBook-Pro-von-Roger week01 % pwd
+/Users/rogerschneider/LSE-MY472-AT26/lse-my472-at26-lectures/week01
+.venv(base) rogerschneider@MacBook-Pro-von-Roger week01 % cd "/Users/rogerschneider/Desktop"
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % pwd
+/Users/rogerschneider/Desktop
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % ls -1 | wc -l
+      51
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % echo commandline1.txt
+commandline1.txt
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % echo "commandline1.txt"
+commandline1.txt
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % > commandline.txt
+^C
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % > commandline1.txt
+^C  
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % mv commandline1.txt "~/Desktop" > "/Users/rogerschneider/LSE-MY472-AT26/lse-my472-at26-lectures/week01"
+zsh: is a directory: /Users/rogerschneider/LSE-MY472-AT26/lse-my472-at26-lectures/week01
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % mv ~/Desktop/commandline1.txt ~/LSE-MY472-AT26/lse-my472-at26-lectures/week01/
+.venv(base) rogerschneider@MacBook-Pro-von-Roger Desktop % 
