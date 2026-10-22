@@ -3,8 +3,8 @@ import os
 from urllib.request import urlretrieve
 
 ## The only two lines to change in later weeks
-week = "week02"
-pdf_file_name = "MY472-week02-digital-data.pdf"
+week = "week03"
+pdf_file_name = "my472-w03-digital-security.pdf"
 
 ## Where the file should go
 lecture_repo = os.path.expanduser("~/LSE-MY472-AT26/lse-my472-at26-lectures")
@@ -14,7 +14,7 @@ if not os.path.exists(week_dir):
   os.mkdir(week_dir)
 
 ## Where the file comes from
-base_url = "https://raw.githubusercontent.com/lse-my472/at26-getting-started/main"
+base_url = "https://raw.githubusercontent.com/lse-my472/at26-lectures/main"
 url = base_url + "/" + week + "/" + pdf_file_name
 destination = os.path.join(week_dir, pdf_file_name)
 
